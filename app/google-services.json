@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "845172913775",
+    "firebase_url": "https://fliply-7af3d.firebaseio.com",
+    "project_id": "fliply-7af3d",
+    "storage_bucket": "fliply-7af3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845172913775:android:7467f75067b46dc1487f9a",
+        "android_client_info": {
+          "package_name": "com.example.fliply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845172913775-bddqnsiquot7vpvg18v26tdn7es90bo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaemSv100df66YogSFB-DkjJZkEklXjyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845172913775-bddqnsiquot7vpvg18v26tdn7es90bo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845172913775:android:3a095dc5f1571904487f9a",
+        "android_client_info": {
+          "package_name": "com.wolfsoft.fliply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845172913775-bddqnsiquot7vpvg18v26tdn7es90bo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaemSv100df66YogSFB-DkjJZkEklXjyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845172913775-bddqnsiquot7vpvg18v26tdn7es90bo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

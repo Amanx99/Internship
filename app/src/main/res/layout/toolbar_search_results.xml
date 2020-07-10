@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_left"
+        android:layout_marginStart="5dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="vertical">
+
+
+        <customfonts.MyTextView_SF_Pro_Display_Medium
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHENNAI, INDIA"
+            android:textColor="#3b3b3b"
+            android:layout_marginLeft="2dp"
+            android:textSize="10sp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="2dp"
+            tools:ignore="SmallSp" />
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="1.5dp"
+            android:layerType="software"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/rect_dotted"
+            android:layout_marginStart="4dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_gravity="end"
+        android:layout_marginLeft="45dp"
+        android:layout_width="17dp"
+        android:layout_height="19dp"
+        android:src="@drawable/ic_placeholder"
+        android:layout_marginStart="45dp" />
+
+
+</androidx.appcompat.widget.Toolbar>

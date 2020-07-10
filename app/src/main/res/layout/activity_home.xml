@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <include layout="@layout/toolbar_messages_fliply"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <customfonts.MyTextView_SF_Pro_Display_Bold
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Recently Added"
+            android:textColor="#3b3b3b"
+            android:textSize="24sp"
+            android:layout_marginStart="20dp" />
+
+        <ImageView
+            android:layout_marginTop="4dp"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sort" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:paddingBottom="70dp"
+        android:clipToPadding="false"
+        android:id="@+id/recycler3">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
